@@ -1,5 +1,5 @@
-import { Button, Container, Box, Heading, Image, useColorModeValue, SimpleGrid, ListItem, List, Link} from '@chakra-ui/react'
-// removed icon from above import
+import { Button, Container, Box, Heading, Image, useColorModeValue, ListItem, List, Link} from '@chakra-ui/react'
+// removed icon and SimpleGrid from above import
 import NextLink from 'next/link'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -63,7 +63,7 @@ const Page = () => {
                 <BioSection>
                     <BioYear>2019</BioYear>
                     Started attending University of Colorado, Denver
-                    <br />Working towards a Bachelor's in Computer Science and
+                    <br />Working towards a Bachelor&apos;s in Computer Science and
                     a minor in Biology.
                 </BioSection>
                 <BioSection>
