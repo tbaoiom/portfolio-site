@@ -1,6 +1,7 @@
-import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
+// removed Box and Divider from import above
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+//import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 //import thumbInkDrop from '../public/images/works/'        // add image here

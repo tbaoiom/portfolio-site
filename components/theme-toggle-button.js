@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { IconButton, IconButtonProps, useColorMode, useColorModeValue } from '@chakra-ui/react'
+import { IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
+// removed IconButtonProps from above
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 
 const ThemeToggleButton = () => {

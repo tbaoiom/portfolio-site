@@ -34,7 +34,7 @@ const LinkItem = ({href, path, children}) => {
 }
 
 const Navbar = props => {
-    const {path} = props
+    // const {path} = props
     return (
         <Box
         position="fixed"
@@ -65,12 +65,12 @@ const Navbar = props => {
             flexGrow={1}
             mt={{base: 4, nmd: 0}}
             >
-                <NextLink href="/works">
+                <LinkItem href="/works">
                     Projects
-                </NextLink>
-                <NextLink href="/posts">
+                </LinkItem>
+                <LinkItem href="/posts">
                     Posts
-                </NextLink>
+                </LinkItem>
                 {/*
                 <LinkItem href="/post" path={path}>
                     Posts

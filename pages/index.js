@@ -1,11 +1,12 @@
-import { Button, Container, Box, Heading, Image, useColorModeValue, SimpleGrid, ListItem, List, Link, Icon} from '@chakra-ui/react'
+import { Button, Container, Box, Heading, Image, useColorModeValue, SimpleGrid, ListItem, List, Link} from '@chakra-ui/react'
+// removed icon from above import
 import NextLink from 'next/link'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/grid-item'
+//import { GridItem } from '../components/grid-item'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 const Page = () => {
@@ -39,13 +40,12 @@ const Page = () => {
                 About
                 </Heading>
                 <Paragraph>    
-                I'm Tai, a passionate student set to graduate in the spring of 2024. When I'm not buried in textbooks,
-                you'll find me diving headfirst into the world of development, crafting websites, and bringing game projects to life in my spare moments.
-                I've always been drawn to the idea of creating digital experiences. Games are my ultimate escape—they inspire me with their creativity. 
-                But I also enjoy software development and am learning constantly, turning ideas into reality. This is my website wehere I showcase my projects.
-                Whether it's building captivating websites or concocting immersive game worlds, I'm all about blending my hobby with my passion for software development.
-
-                Thanks for stopping by! Hopefully we can connect.
+                    I&apos;m Tai, a passionate student set to graduate in the spring of 2024. When I&apos;m not buried in textbooks,
+                    you&apos;ll find me diving headfirst into the world of development, crafting websites, and bringing game projects to life in my spare moments.
+                    I&apos;ve always been drawn to the idea of creating digital experiences. Games are my ultimate escape—they inspire me with their creativity.
+                    But I also enjoy software development and am learning constantly, turning ideas into reality. This is my website where I showcase my projects.
+                    Whether it&apos;s building captivating websites or concocting immersive game worlds, I&apos;m all about blending my hobby with my passion for software development.
+                    Thanks for stopping by! Hopefully, we can connect.
                 </Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works">
