@@ -9,6 +9,21 @@ import Layout from '../components/layouts/article'
 //import { GridItem } from '../components/grid-item'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
+
+// for profile picture, put in big empty space in the page area
+/*
+<Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
+    <Image borderColor="whiteAlpha.800" 
+    borderWidth={2} 
+    borderStyle="solid" 
+    maxWidth="100px" 
+    display="inline-block" 
+    borderRadius="full" 
+    src ="/images/tai.png"
+    alt="Profile Image" />
+</Box>
+*/
+
 const Page = () => {
     return (
         <Layout>
@@ -24,16 +39,11 @@ const Page = () => {
                         </Heading>
                         <p>(Student | Developer)</p>
                     </Box>
-                    <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
-                        <Image borderColor="whiteAlpha.800" 
-                        borderWidth={2} 
-                        borderStyle="solid" 
-                        maxWidth="100px" 
-                        display="inline-block" 
-                        borderRadius="full" 
-                        src ="/images/tai.png"
-                        alt="Profile Image" />
-                    </Box>
+                    
+                    
+
+
+
                 </Box>
             <Section delay={0.1}>
                 <Heading as="h3" variant="section-title">

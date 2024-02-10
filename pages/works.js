@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
 // removed Box and Divider from import above
 import Section from '../components/section'
