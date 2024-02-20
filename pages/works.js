@@ -1,8 +1,12 @@
-import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, ListItem, Box, Badge} from '@chakra-ui/react'
 // removed Box and Divider from import above
 import Section from '../components/section'
 //import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'    
+
+const Title = ({ children }) => <h1>{children}</h1>;
+const Meta = ({ children }) => <span>{children}</span>;
+const WorkImage = ({ src }) => <Box><img src={src} alt="WorkImage" /></Box>;
 
 const Works = () => {
     return (
