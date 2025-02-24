@@ -3,7 +3,7 @@ import {Box, Link} from '@chakra-ui/react'
 // removed heading, image, badge for now
 //import { ChevronRightIcon } from '@chakra-ui/icons'
 
-export const Title = ({ children }) => (
+export const Title = ({ }) => (
     <Box>
         <NextLink href="/works">
             <Link>Works</Link>
