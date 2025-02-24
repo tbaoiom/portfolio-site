@@ -1,5 +1,5 @@
 import { Button, Container, Box, Heading, useColorModeValue, ListItem, List, Link, Image} from '@chakra-ui/react'
-// removed icon and SimpleGrid from above import
+// removed icon SimpleGrid from above import
 import NextLink from 'next/link'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
