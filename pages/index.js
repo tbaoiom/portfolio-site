@@ -1,5 +1,5 @@
-import { Button, Container, Box, Heading, useColorModeValue, ListItem, List, Link} from '@chakra-ui/react'
-// removed icon and Image and SimpleGrid from above import
+import { Button, Container, Box, Heading, useColorModeValue, ListItem, List, Link, Image} from '@chakra-ui/react'
+// removed icon and SimpleGrid from above import
 import NextLink from 'next/link'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -9,20 +9,6 @@ import Layout from '../components/layouts/article'
 //import { GridItem } from '../components/grid-item'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
-
-// for profile picture, put in big empty space in the page area
-/*
-<Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
-    <Image borderColor="whiteAlpha.800" 
-    borderWidth={2} 
-    borderStyle="solid" 
-    maxWidth="100px" 
-    display="inline-block" 
-    borderRadius="full" 
-    src ="/images/tai.png"
-    alt="Profile Image" />
-</Box>
-*/
 
 const Page = () => {
     return (
@@ -40,9 +26,16 @@ const Page = () => {
                         <p>(Student | Developer)</p>
                     </Box>
                     
-                    
-
-
+                <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
+                    <Image borderColor="whiteAlpha.800" 
+                    borderWidth={2} 
+                    borderStyle="solid" 
+                    maxWidth="100px" 
+                    display="inline-block" 
+                    borderRadius="full" 
+                    src ="/images/tai.jpg"
+                    alt="Profile Image" />
+                </Box>
 
                 </Box>
             <Section delay={0.1}>
@@ -73,12 +66,20 @@ const Page = () => {
                 <BioSection>
                     <BioYear>2019</BioYear>
                     Started attending University of Colorado, Denver
-                    <br />Working towards a Bachelor&apos;s in Computer Science and
+                    <br />Worked towards a Bachelor&apos;s in Computer Science and
                     a minor in Biology.
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
                     Intern at CU Dincuvator
+                </BioSection>
+                <BioSection>
+                    <BioYear>2024</BioYear>
+                    Graduated from University of Colorado, Denver
+                </BioSection>
+                <BioSection>
+                    <BioYear>2025</BioYear>
+                    Started a Master's program in Computer Science at the University of Colorado, Denver
                 </BioSection>
 
             </Section>
