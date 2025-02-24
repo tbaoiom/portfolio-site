@@ -79,7 +79,7 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2025</BioYear>
-                    Started a Master's program in Computer Science at the University of Colorado, Denver
+                    Started a Master&apos;s program in Computer Science at the University of Colorado, Denver
                 </BioSection>
 
             </Section>
